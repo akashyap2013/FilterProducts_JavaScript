@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container mx-auto">
+        <h1 class="font-poppins text-center text-3xl font-bold pt-24">Filter Products</h1>
+    </div>
+
+    <!-- form -->
+    <form class="text-center py-4">
+        <input type="text" class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md" id="filterInput" placeholder="Filter">        
+    </form>
+
+    <!-- product grid -->
+    <div class="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-12 gap-20">
+        <!-- <div class="item justify-self-center">
+            <img src="./assets/img3.png" class="bg-cover img" alt="img1">
+            <div class="text-center py-3 font-poppins">
+                <h1 class="text-lg title">Product Title</h1>
+                <a href="#" class="block"><span class="text-sm text-red-400">Category</span></a>
+                <span class="block py-3">$<span class="text-md">12.99</span></span>
+                <button class="border-2 px-8 py-1 bg-yellow-400 border rounded-md">Buy Now</button>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="./Beginner.js"></script>
+    <script src="./Advanced.js"></script>
+</body>
+</html>
